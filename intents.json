@@ -1,0 +1,42 @@
+{
+"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "What's good", "Hi", "Howdy"],
+     "responses": ["Hey there! How can I help?", "Yes, how can I help", "What's popping Jia!", "Hola!"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Peace out", "Sure dude", "Ciao", "Adios", "Godspeed", "Farewell"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure no problem!", "No problemo", "Of course!"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here, but not following. Could you elaborate?", "Could you repeat that?"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Tell me about yourself", "You are?"],
+      "responses": [""]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can tell you about our organization, JiaTing!", "I can give you information about what our org does!", "I can answer any FAQs about our org!"]
+      },
+     {"tag": "jiating_info",
+      "patterns": ["JiaTing", "What can you tell me about JiaTing", "Tell me about JiaTing", "What do you know about JiaTing", "What about JiaTing", "What do you know about JiaTing"],
+      "responses": ["JiaTing is an all-inclusive cultural and leadership based organization that aims to promote traditional/modern lion and dragon dance through training and performance. "]
+      },
+      {"tag": "jiating_operations",
+       "patterns": ["JiaTing Facts", "Give me some facts about JiaTing", "Give me some info about JiaTing", "JiaTing info", "JiaTing interesting facts", "JiaTing operations", "What does JiaTing do?", "Tell me something interesting about JiaTing", "Tell me more about JiaTing"],
+       "responses": [
+         "Membership and training priority is given to students of the local Chinese Gainesville School, University of Florida, and Santa Fe college",
+         "JiaTing seeks to support a greater understanding of Asian heritage in the Gainesville community and is open to all members regardless of previous experience or background. ",
+         "The JiaTing team originates from the University of Florida's Chinese American Student Association (CASA)",
+         "JiaTing is currently selling jerseys for $27!",
+         "Some occasions we plan to perform in: promo videos, competitions, conventions, business grand openings, show exhibitions/acts, weddings, and photoshoots!"
+       ]
+      }
+  ]
+}
